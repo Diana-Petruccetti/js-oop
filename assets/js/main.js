@@ -15,3 +15,18 @@ Otteniamo le informazioni della vettura utilizzando il metodo informazioni()
 Calcoliamo l'età della vettura utilizzando il metodo calcolaEta() */
 
 //---------------------------------------------------------------------------------
+
+class Veicolo {
+    marca;
+    anno;
+    colore;
+    porte;
+    carburante;
+}
+
+const fiat = new Veicolo();
+fiat.marca = "Fiat";
+fiat.anno = 2019;
+fiat.colore = "Blu";
+fiat.porte = 4;
+fiat.carburante = "Benzina";
