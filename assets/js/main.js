@@ -16,17 +16,19 @@ Calcoliamo l'età della vettura utilizzando il metodo calcolaEta() */
 
 //---------------------------------------------------------------------------------
 
+/* Crea classe Veicolo con constructor */
 class Veicolo {
-    marca;
-    anno;
-    colore;
-    porte;
-    carburante;
+    constructor (marca, anno, colore, porte, carburante) {
+        this.marca = marca;
+        this.anno = anno;
+        this.colore = colore;
+        this.porte = porte;
+        this.carburante = carburante;
+    }
 }
 
-const fiat = new Veicolo();
-fiat.marca = "Fiat";
-fiat.anno = 2019;
-fiat.colore = "Blu";
-fiat.porte = 4;
-fiat.carburante = "Benzina";
+/* Crea istanza fiat */
+const fiat = new Veicolo('Fiat', 2019, 'Blu', 4, 'Benzina');
+console.log(fiat);
+
+/* Ottengo le informazioni del veicolo con il metodo informazioni() */
