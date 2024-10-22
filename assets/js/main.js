@@ -28,7 +28,6 @@ class Veicolo {
 }
 
 /* Crea istanza fiat */
+/* Ottengo le informazioni del veicolo con il metodo informazioni() */
 const fiat = new Veicolo('Fiat', 2019, 'Blu', 4, 'Benzina');
 console.log(fiat);
-
-/* Ottengo le informazioni del veicolo con il metodo informazioni() */
